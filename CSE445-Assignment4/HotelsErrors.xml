@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
-	<Hotel Rating="3.8">
-		<Name>Motel 6</Name>
-		<Name>Motel 7</Name>
+	<Hotel Rating="4.2">
+		<Name>Westin</Name>
+		<Name>Still Westin</Name>
 		<Address>
-			<Number>214</Number>
-			<Street>S 24th St</Street>
-			<City>Phoenix</City>
+			<Number>11</Number>
+			<Street>E 7th St</Street>
+			<City>Tempe</City>
 			<State>AZ</State>
-			<Zip>85034</Zip>
+			<Zip>85281</Zip>
 	</Hotel>
 	<Hotel Rating="3.7">
 		<Name>Motel 6</Name>
