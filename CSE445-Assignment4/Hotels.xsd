@@ -20,7 +20,7 @@
 										<xs:element name ="State" type="xs:string" minOccurs="1" maxOccurs="1"></xs:element>
 										<xs:element name ="Zip" type="xs:string" minOccurs="1" maxOccurs="1"></xs:element>
 									</xs:sequence>
-									<xs:attribute name ="NearstAirport" type="xs:string" use="required"></xs:attribute>
+									<xs:attribute name ="NearestAirport" type="xs:string" use="required"></xs:attribute>
 								</xs:complexType>
 							</xs:element>
 							<xs:attribute name ="Rating" type="xs:decimal" use="optional"></xs:attribute>
