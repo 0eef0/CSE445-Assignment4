@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
+	<Hotel Rating="3.8">
+		<Name>Motel 6</Name>
+		<Phone>602-244-115</Phone>
+		<Address NearstAirport="Phoenix International">
+			<Number>214</Number>
+			<Street>S 24th St</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85034</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="3.7">
+		<Name>Motel 6</Name>
+		<Phone>480-968-4401</Phone>
+		<Address NearstAirport="Phoenix International">
+			<Number>1720</Number>
+			<Street>S Priest Dr</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="3.3">
+		<Name>Motel 6</Name>
+		<Phone>602-267-8555</Phone>
+		<Address NearstAirport="Phoenix International">
+			<Number>5315</Number>
+			<Street>E Van Buren</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85008</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="3.3">
+		<Name>Motel 6</Name>
+		<Phone>602-272-0220</Phone>
+		<Address NearstAirport="Phoenix International">
+			<Number>1530</Number>
+			<Street>N 52nd Dr</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85043</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="3.1">
+		<Name>Motel 6</Name>
+		<Phone>602-993-2353</Phone>
+		<Address NearstAirport="Phoenix International">
+			<Number>2330</Number>
+			<Street>W Bell Rd</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85023</Zip>
+		</Address>
+	</Hotel>
+	<Hotel>
+		<Name>Motel 6</Name>
+		<Phone>602-922-2107</Phone>
+		<Address NearstAirport="Phoenix International">
+			<Number>2333</Number>
+			<Street>E Thomas Rd</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85016</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="3.0">
+		<Name>Motel 6</Name>
+		<Phone>623-939-9431</Phone>
+		<Address NearstAirport="Phoenix International">
+			<Number>7116</Number>
+			<Street>N 59th Ave</Street>
+			<City>Glendale</City>
+			<State>AZ</State>
+			<Zip>85301</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="2.2">
+		<Name>Motel 6</Name>
+		<Phone>602-258-6271</Phone>
+		<Address NearstAirport="Phoenix International">
+			<Number>2725</Number>
+			<Street>N Black Cyn Hwy</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85009</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="4.3">
+		<Name>Motel 6</Name>
+		<Phone>480-945-9506</Phone>
+		<Address NearstAirport="Phoenix International">
+			<Number>1612</Number>
+			<Street>N Scottsdale Rd</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85288</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="3.6">
+		<Name>Motel 6</Name>
+		<Phone>480-967-8696</Phone>
+		<Address NearstAirport="Phoenix International">
+			<Number>513</Number>
+			<Street>W Broadway Rd</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85282</Zip>
+		</Address>
+	</Hotel>
+</Hotels>
