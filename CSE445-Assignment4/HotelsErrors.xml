@@ -3,14 +3,12 @@
 	<Hotel Rating="3.8">
 		<Name>Motel 6</Name>
 		<Name>Motel 7</Name>
-		<Phone>602-244-115</Phone>
-		<Address NearstAirport="Phoenix International">
+		<Address>
 			<Number>214</Number>
 			<Street>S 24th St</Street>
 			<City>Phoenix</City>
 			<State>AZ</State>
 			<Zip>85034</Zip>
-		</Address>
 	</Hotel>
 	<Hotel Rating="3.7">
 		<Name>Motel 6</Name>

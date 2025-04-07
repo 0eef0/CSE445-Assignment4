@@ -19,7 +19,7 @@ namespace ConsoleApp1
     public class Program
     {
         public static string xmlURL = "https://raw.githubusercontent.com/0eef0/CSE445-Assignment4/refs/heads/master/CSE445-Assignment4/Hotels.xml";
-        public static string xmlErrorURL = "";
+        public static string xmlErrorURL = "https://raw.githubusercontent.com/0eef0/CSE445-Assignment4/refs/heads/master/CSE445-Assignment4/HotelsErrors.xml";
         public static string xsdURL = "https://raw.githubusercontent.com/0eef0/CSE445-Assignment4/refs/heads/master/CSE445-Assignment4/Hotels.xsd";
 
         public static void Main(string[] args)
@@ -39,17 +39,16 @@ namespace ConsoleApp1
         {
             try
             {
-                XmlReaderSettings settings = new XmlReaderSettings();
-                settings.ValidationType = ValidationType.Schema;
-                settings.Schemas.Add(null, xsdUrl);
+                XmlReaderSettings xmlSettings = new XmlReaderSettings();
+                xmlSettings.Schemas.Add(null, xsdUrl);
+                xmlSettings.ValidationType = ValidationType.Schema;
 
                 string errorMessages = "";
-                settings.ValidationEventHandler += (sender, args) =>
+                xmlSettings.ValidationEventHandler += (sender, args) =>
                 {
                     errorMessages += args.Message + "\n";
                 };
-
-                using (XmlReader reader = XmlReader.Create(xmlUrl, settings))
+                using (XmlReader reader = XmlReader.Create(xmlUrl, xmlSettings))
                 {
                     while (reader.Read()) { }
                 }
@@ -69,8 +68,7 @@ namespace ConsoleApp1
             {
                 XmlDocument doc = new XmlDocument();
                 doc.Load(xmlUrl);
-                string jsonText = JsonConvert.SerializeXmlNode(doc, Newtonsoft.Json.Formatting.Indented);
-                return jsonText;
+                return JsonConvert.SerializeXmlNode(doc, Newtonsoft.Json.Formatting.Indented);
             }
             catch (Exception ex)
             {
